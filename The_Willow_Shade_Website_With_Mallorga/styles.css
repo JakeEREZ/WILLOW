@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: 'Mallorga';
+    src: url('Mallorga-Regular.otf') format('opentype');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#intro {
+    height: 100vh;
+    background: url('background.png') top center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#intro .overlay {
+    text-align: center;
+    color: #fff;
+}
+
+.band-name {
+    font-family: 'Mallorga', Arial, sans-serif;
+    font-size: 4rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#main-header {
+    background-color: #111;
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+    border-bottom: 1px solid #333;
+    background-color: #000;
+    color: #fff;
+}
